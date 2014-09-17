@@ -15,32 +15,50 @@ A variable name ending with xyz is used to denote the mean value 3-axial signals
 Each variable is for one of the directions (X, Y, or Z).
 
 tbodyaccxyz
+
 tgravityaccxyz
+
 tbodyaccjerkxyz
+
 tbodygyroxyz
+
 tbodygyrojerkxyz
+
 tbodyaccmag
+
 tgravityaccmag
+
 tbodyaccjerkmag
+
 tbodygyromag
+
 tbodygyrojerkmag
+
 fbodyaccxyz
+
 fbodyaccjerkxyz
+
 fbodygyroxyz
+
 fbodyaccmag
+
 fbodyaccjerkmag
+
 fbodygyromag
+
 fbodygyrojerkmag
 
-The set of variables estimated from these signals (prior to averaging for a mean) are:
+
+# The set of variables estimated from these signals (prior to averaging for a mean) are:
 
 mean: Mean value
+
 std: Standard deviation
+
 meanfreq: Weighted average of the frequency components to obtain a mean frequency
 
-Other variables:
+# Other variables:
 
-subject: Subject ID 
-	1-30
-activity: Activity subject is involved in
-	6 levels: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
+subject: Subject ID (1-30)
+
+activity: Activity subject is involved in (6 levels: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying)
